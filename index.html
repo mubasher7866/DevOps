@@ -13,11 +13,13 @@ text-rendering: optimizeSpeed;
 width: 13px;
 height: 13px;
 margin: 0;
-margin-right: 1px;
+margin-right: 51.5pc;
 display: block;
-float: left;
+margin-top: 3pt;
 position: relative;
 cursor: pointer;
+float: right;
+
 }
 
 input[type='checkbox']:after {
@@ -36,25 +38,28 @@ font-size: 10px;
 -moz-box-shadow: inset 0 1px 1px #5F95FC, 0 1px 0 #5F95FC;
 box-shadow: inset 0 1px 1px #5F95FC, 0 1px 0 #5F95FC;
 background: grey;
+
 }
 
 input[type='checkbox']:hover:after, input[type='checkbox']:checked:hover:after {
 background: grey;
 content: '\2714';
 color: #fff;
+
 }
 
 input[type='checkbox']:checked:after {
 background: grey;
 content: '\2714';
 color: #fff;
+
 }
 
 </style>
 <div>
   <div>
-    <input type="checkbox" name="my-checkbox" id="opt-in">
-    <label for="opt-in">Check me!</label>
+    <input type="checkbox" name="my-checkbox" id="opt-in" >
+    <label for="opt-in" style="font-size: larger;">Click the Checkbox when the assessment is complete.</label>
   </div>
 </div>
 </html>
